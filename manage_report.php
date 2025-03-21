@@ -10,6 +10,10 @@
 			<label for="" class="control-label">Incident Address</label>
 			<textarea cols="30" rows="3" name="address" required="" class="form-control"></textarea>
 		</div>
+		<div class="form-group">
+        <label for="dateTimeInput" class="control-label">Pick a Date and Time</label>
+        <input type="datetime-local" id="dateTimeInput" name="dateTime" required class="form-control">
+        </div>
 		<button class="button btn btn-primary btn-sm">Create</button>
 		<button class="button btn btn-secondary btn-sm" type="button" data-dismiss="modal">Cancel</button>
 
